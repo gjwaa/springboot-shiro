@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  mail:
+    username: 1258046117@qq.com
+    password: krygaiyvddxnijhi
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+mybatis:
+  type-aliases-package: com.gjw.bean
+  mapper-locations: classpath:mapper/*.xml
