@@ -15,7 +15,7 @@ import java.util.LinkedHashMap;
 public class ShiroConfig {
 
 
-    ///ssss
+
     @Bean
     public ShiroFilterFactoryBean shiroFilterFactoryBean(@Qualifier("webSecurityManager") DefaultWebSecurityManager webSecurityManager) {
         ShiroFilterFactoryBean factoryBean = new ShiroFilterFactoryBean();
