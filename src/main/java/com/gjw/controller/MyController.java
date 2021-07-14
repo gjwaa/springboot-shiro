@@ -97,7 +97,7 @@ public class MyController {
     public User users() {
         String title = "111hello!!";
         String text = "<h1 style='color:red'>xixi111haha!!!</h1>";
-        sendEmail.send(true,true, title, text, "1258046117@qq.com", "1258046117@qq.com");
+        sendEmail.send(false,true, title, text, "1258046117@qq.com", "1258046117@qq.com");
         return new User(1, "2", "3", "4", "5");
     }
 
